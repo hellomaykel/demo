@@ -55,5 +55,53 @@
       "type": "ONA",
       "description": "Original Net Animation"
     }
+  ],
+   "genres": [
+    {
+     "id": 1,
+     "genre": "Action"
+   },
+   {
+     "id": 2,
+     "genre": "Comedy"
+   },
+   {
+     "id": 3,
+     "genre": "Ecchi"
+   },
+   {
+     "id": 4,
+     "genre": "Harem"
+   },
+   {
+     "id": 5,
+     "genre": "Romance"
+   }
+ ],
+   "anime_genres": [
+    {
+     "anime_id": 1,
+     "genre_id": 1
+    },
+    {
+     "anime_id": 1,
+     "genre_id": 2
+    },
+    {
+     "anime_id": 2,
+     "genre_id": 1
+    },
+    {
+     "anime_id": 2,
+     "genre_id": 5
+    },
+    {
+     "anime_id": 3,
+     "genre_id": 1
+    },
+    {
+     "anime_id": 3,
+     "genre_id": 2
+    }
   ]
 }
