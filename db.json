@@ -1,11 +1,7 @@
 {
   "anime": [
     {
-      "id": 1,
-      "english": "One punch man",
-      "synonyms": "One Punch-Man, One-Punch Man, OPM",
-      "japanese": "ワンパンマン",
-      "type_id": 1,
+      "id": 1
     }
   ]
 }
