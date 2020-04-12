@@ -1,14 +1,60 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "anime": [
+    {
+      "id": 1,
+      "english": "One punch man",
+      "synonyms": "One Punch-Man, One-Punch Man, OPM",
+      "japanese": "ワンパンマン",
+      "type_id": 1,
+      "episodes": 12,
+      "aired": "Oct 5, 2015 to Dec 21, 2015",
+      "sumarry": "The seemingly ordinary and unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, he trained relentlessly for three years—and lost all of his hair in the process. Now, Saitama is incredibly powerful, so much so that no enemy is able to defeat him in battle. In fact, all it takes to defeat evildoers with just one punch has led to an unexpected problem—he is no longer able to enjoy the thrill of battling and has become quite bored. This all changes with the arrival of Genos, a 19-year-old cyborg, who wishes to be Saitama's disciple after seeing what he is capable of. Genos proposes that the two join the Hero Association in order to become certified heroes that will be recognized for their positive contributions to society, and Saitama, shocked that no one knows who he is, quickly agrees. And thus begins the story of One Punch Man, an action-comedy that follows an eccentric individual who longs to fight strong enemies that can hopefully give him the excitement he once felt and just maybe, he'll become popular in the process.  [Written by MAL Rewrite]",
+      "image": "https://cdn.myanimelist.net/images/anime/12/76049.jpg"
+    },
+    {
+      "id": 2,
+      "english": "Code Geass: Lelouch of the Rebellion",
+      "synonyms": "",
+      "japanese": "コードギアス 反逆のルルーシュ",
+      "type_id": 1,
+      "episodes": 25,
+      "aired": "Oct 6, 2006 to Jul 29, 2007",
+      "sumarry": "Code Geass: Hangyaku no Lelouch is an original anime series by Sunrise animation studio with original character designs by the all-female Japanese manga artist group Clamp. Manga and light novels based off the show have been published by Kadokawa Shoten. The show has sold millions of DVDs and Blu-ray volumes and is extremely popular in both Japan and North America. The show is known for its multi-genre appeal and for its diverse cast of characters who face many moral dilemmas over the course of the series. The last two episodes received a pre-airing on an event, July 21, 2007. Regular broadcasting was on July 29, 2007. The series won: \"The Best Anime TV Series\" award at the 2007 Tokyo International Anime Fair, \"The Best TV animation\" award at the twelfth Animation Kobe, and \"The Most Popular Anime\" award at the Animage 's 29th Annual Anime Grand Prix.",
+      "image": "https://cdn.myanimelist.net/images/anime/5/50331.jpg"
+    },
+    {
+      "id": 3,
+      "english": "Hunter x Hunter",
+      "synonyms": "HXH",
+      "japanese": "HUNTER×HUNTER（ハンター×ハンター）",
+      "type_id": 1,
+      "episodes": 148,
+      "aired": "Oct 2, 2011 to Sep 24, 2014",
+      "sumarry": "Hunter x Hunter is set in a world where Hunters exist to perform all manner of dangerous tasks like capturing criminals and bravely searching for lost treasures in uncharted territories. Twelve-year-old Gon Freecss is determined to become the best Hunter possible in hopes of finding his father, who was a Hunter himself and had long ago abandoned his young son. However, Gon soon realizes the path to achieving his goals is far more challenging than he could have ever imagined. Along the way to becoming an official Hunter, Gon befriends the lively doctor-in-training Leorio, vengeful Kurapika, and rebellious ex-assassin Killua. To attain their own goals and desires, together the four of them take the Hunter Exam, notorious for its low success rate and high probability of death. Throughout their journey, Gon and his friends embark on an adventure that puts them through many hardships and struggles. They will meet a plethora of monsters, creatures, and characters—all while learning what being a Hunter truly means. [Written by MAL Rewrite]",
+      "image": "https://cdn.myanimelist.net/images/anime/11/33657.jpg"
+    },
+    
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "types": [
+    { 
+      "id": 1,
+      "type": "TV",
+      "description": "Television Series (usually aired on TV at some point in time)"
+    },
+    { 
+      "id": 2,
+      "type": "OVA",
+      "description": "Original Video Animation (these tend to not air over TV)"
+    },
+    { 
+      "id": 1,
+      "type": "Movie",
+      "description": "Anime movies"
+    },
+    { 
+      "id": 1,
+      "type": "ONA",
+      "description": "Original Net Animation"
+    },
+  ]
 }
